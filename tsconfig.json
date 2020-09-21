@@ -1,0 +1,29 @@
+{
+    "compilerOptions": 
+    {
+        "rootDir": "./src",
+        "outDir": "./types",
+
+        "module": "system",
+        "moduleResolution": "Node",
+        "typeRoots": [ "node_modules/@types" ],
+
+        "sourceMap": true,
+
+        "declaration": true,
+        "declarationMap": true,
+        "declarationDir": "./types",
+
+        "listEmittedFiles": true,
+
+        "alwaysStrict": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+    },
+    "include": [
+        "./src"
+        // "./ts/JSONSchemaBase.d.ts",
+        // "./CodeContributionSchema.ts",
+        // "./index.ts"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "vscode-contribution-schemas",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [
+        "vscode",
+        "typescript",
+        "declaration",
+        "interface",
+        "contribution",
+        "configuration",
+        "schema",
+        "json"
+    ],
+    "types": "./types/index.d.ts",
+    "files": [
+        "./types",
+        "./README.md",
+        "./media/demo-hover-markdownDescriptionMessage.png"
+    ],
+    "scripts": {
+        "types:build": "tsc --project ./tsconfig.types.json",
+        "types:build:watch": "tsc --watch --project ./tsconfig.types.json"
+    },
+    "author": "disco0",
+    "license": "ISC",
+    "devDependencies": {},
+    "dependencies": {}
+}
