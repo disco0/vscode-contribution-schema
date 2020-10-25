@@ -14,9 +14,9 @@
     ],
     "types": "./types/index.d.ts",
     "files": [
-        "./types",
-        "./README.md",
-        "./media/demo-hover-markdownDescriptionMessage.png"
+        "types",
+        "README.md",
+        "media/demo-hover-markdownDescriptionMessage.png"
     ],
     "scripts": {
         "types:build": "tsc --project ./tsconfig.types.json",
