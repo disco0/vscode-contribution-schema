@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "type": "npm",
+            "script": "types:build",
+            "group": "build",
+            "problemMatcher": ["$tsc-watch"],
+            "label": "Build Types",
+            "options": {
+                "statusbar": 
+                {
+                    "label": "Build $(chevron-right) Watch",
+                    "filePattern": "tsconfig\\..*|.*\\.tsx?"
+                }
+            }
+        },
+    ]
+}
