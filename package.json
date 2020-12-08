@@ -19,8 +19,10 @@
         "media/demo-hover-markdownDescriptionMessage.png"
     ],
     "scripts": {
-        "types:build": "tsc --project ./tsconfig.types.json",
-        "types:build:watch": "tsc --watch --project ./tsconfig.types.json"
+        "build": "yarn types:build",
+        "compile": "yarn run compile:types",
+        "compile:watch": "yarn run compile:types --watch",
+        "compile:types": "tsc --pretty --project ./tsconfig.types.outFile.json"
     },
     "author": "disco0",
     "license": "ISC",
