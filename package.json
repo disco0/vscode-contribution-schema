@@ -1,5 +1,5 @@
 {
-    "name": "vscode-contribution-schemas",
+    "name": "vscode-contribution-schema",
     "version": "1.0.0",
     "description": "",
     "keywords": [
@@ -13,16 +13,23 @@
         "json"
     ],
     "types": "./types/index.d.ts",
+    "type": "commonjs",
+    "module": "vscode-contribution-schema",
+    "repository": {
+        "url": "https://github.com/disco0/vscode-contribution-schema"
+    },
     "files": [
         "types",
         "README.md",
         "media/demo-hover-markdownDescriptionMessage.png"
     ],
     "scripts": {
-        "build": "yarn types:build",
+        "build": "yarn compile",
         "compile": "yarn run compile:types",
-        "compile:watch": "yarn run compile:types --watch",
-        "compile:types": "tsc --pretty --project ./tsconfig.types.outFile.json"
+        "watch": "yarn run compile:types:watch",
+        "compile:types": "tsc --pretty --project ./tsconfig.types.outFile.json",
+        "compile:types:watch": "yarn run compile:types --watch",
+        "compile:watch": "yarn run compile:watch"
     },
     "author": "disco0",
     "license": "ISC",
