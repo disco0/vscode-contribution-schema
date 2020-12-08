@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": 
+    {
+        "emitDeclarationOnly": true,
+        "declarationDir": null,
+        "bundledPackageName": "vscode-contribution-schema",
+
+        "outFile": "types/index.d.ts"
+    }
+}

@@ -4,7 +4,6 @@
         "rootDir": "./src",
         "outDir": "./types",
 
-        "module": "system",
         "moduleResolution": "Node",
         "typeRoots": [ "node_modules/@types" ],
 
@@ -21,9 +20,6 @@
         "forceConsistentCasingInFileNames": true,
     },
     "include": [
-        "./src"
-        // "./ts/JSONSchemaBase.d.ts",
-        // "./CodeContributionSchema.ts",
-        // "./index.ts"
+        "./src/index.ts"
     ]
 }
