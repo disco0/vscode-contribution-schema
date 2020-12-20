@@ -1,7 +1,7 @@
 {
     "name": "vscode-contribution-schema",
-    "version": "1.0.0",
-    "description": "",
+    "version": "1.0.1",
+    "description": "Utility typings for working with Visual Studio Code extension contributions in TypeScript",
     "keywords": [
         "vscode",
         "typescript",
